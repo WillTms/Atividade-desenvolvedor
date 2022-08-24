@@ -10,6 +10,11 @@ Var
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
-
+escreval ( " Digitar o primeiro valor " )
+leia(n1)
+escreval ( " Digitar o segundo valor " )
+leia(n2)
+subtracao <- n1 - n2
+escreval (" A Subtração entre os dois numeros é : " , subtracao)
 
 Fimalgoritmo
