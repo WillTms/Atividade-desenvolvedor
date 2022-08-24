@@ -10,7 +10,6 @@ Var
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
-<<<<<<< HEAD
 enquanto (opcao <> 9) faca
       escreval("1-Adição")
       escreval("2-Subtração")
@@ -36,6 +35,5 @@ subtracao <- n1 - n2
 escreval (" A Subtração entre os dois numeros é : " , subtracao)
 fimescolha
 fimenquanto
->>>>>>> 0da15865b234212b56961422c59cc853523f2d97
 
 Fimalgoritmo
