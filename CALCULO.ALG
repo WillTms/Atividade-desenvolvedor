@@ -10,6 +10,13 @@ Var
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval ("Informe os valores:")
+escreval ("Numero 1:")
+leia (N1)
+escreval ("Numero 2:")
+leia (N2)
+adicao <- N1 + N2
+escreval ("O resultado foi:", adicao)
 
 
 Fimalgoritmo
