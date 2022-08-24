@@ -1,16 +1,25 @@
 Algoritmo "Calculo"
 //Criar um algoritmo com Calculos Basicos com as variasveis definidas
-//Eduardo Ryann Czigler: Criar algoritmo de adiÁ„o de valor
-//Luis Fernando Battini: Criar algoritmo de subtraÁ„o de valor
-//Pedro Henrique da Silva: Criar algoritmo de multiplicaÁ„o e divis„o de valor
+//Eduardo Ryann Czigler: Criar algoritmo de adi√ß√£o de valor
+//Luis Fernando Battini: Criar algoritmo de subtra√ß√£o de valor
+//Pedro Henrique da Silva: Criar algoritmo de multiplica√ß√£o e divis√£o de valor
 
 Var
-// SeÁ„o de DeclaraÁıes das vari·veis 
+// Se√ß√£o de Declara√ß√µes das vari√°veis 
   N1 , N2 , adicao, subtracao, divisao, multiplicacao : inteiro
 
 Inicio
-// SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc... 
+// Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc... 
 <<<<<<< HEAD
+enquanto (opcao <> 9) faca
+      escreval("1-Adi√ß√£o")
+      escreval("2-Subtra√ß√£o")
+      escreval("3-Divis√£o")
+      escreval("4-Multiplica√ß√£o")
+      escreval("5-Terminar algoritmo")
+      leia(opcao)
+      escolha(opcao)
+      caso 1
 escreval ("Informe os valores:")
 escreval ("Numero 1:")
 leia (N1)
@@ -18,13 +27,15 @@ escreval ("Numero 2:")
 leia (N2)
 adicao <- N1 + N2
 escreval ("O resultado foi:", adicao)
-=======
+caso 2
 escreval ( " Digitar o primeiro valor " )
 leia(n1)
 escreval ( " Digitar o segundo valor " )
 leia(n2)
 subtracao <- n1 - n2
-escreval (" A SubtraÁ„o entre os dois numeros È : " , subtracao)
+escreval (" A Subtra√ß√£o entre os dois numeros √© : " , subtracao)
+fimescolha
+fimenquanto
 >>>>>>> 0da15865b234212b56961422c59cc853523f2d97
 
 Fimalgoritmo
