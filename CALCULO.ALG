@@ -6,7 +6,8 @@ Algoritmo "Calculo"
 
 Var
 // Seção de Declarações das variáveis 
-  N1 , N2 , adicao, subtracao, divisao, multiplicacao : inteiro
+  N1 , N2 , adicao, subtracao, multiplicacao, opcao : inteiro
+  divisao : real
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
@@ -33,6 +34,22 @@ escreval ( " Digitar o segundo valor " )
 leia(n2)
 subtracao <- n1 - n2
 escreval (" A Subtração entre os dois numeros é : " , subtracao)
+caso 3
+escreval ( "Digite o primeiro valor: " )
+leia(N1)
+escreval ( "Digite o segundo valor: " )
+leia(N2)
+divisao <- N1 / N2
+escreval("A divis�o entre os 2 numeros � : ", divisao)
+caso 4
+escreval ( "Digite o primeiro valor: " )
+leia(N1)
+escreval ( "Digite o segundo valor: " )
+leia(N2)
+multiplicacao <- N1 * N2
+escreval("A multiplica��o entre os 2 numeros � : ", multiplicacao)
+caso 5
+escreval("Fim do algoritmo")
 fimescolha
 fimenquanto
 
